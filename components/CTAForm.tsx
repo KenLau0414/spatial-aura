@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
  import { useState, FormEvent } from 'react'
 
@@ -74,7 +74,7 @@
 
            <button type="submit"
              className="w-full px-10 py-4 rounded-[50px] text-base font-semibold text-white bg-[var(--accent)] hover:bg-[var(--accent-light)] transition-all cursor-pointer">
-             Request My Session — $197
+             Request My Session 鈥?$197
            </button>
 
            {error && (

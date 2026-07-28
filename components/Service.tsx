@@ -47,10 +47,18 @@
              >
                Book Your Assessment
              </a>
-             <div className="text-center mt-4 text-[13px] text-[var(--text-light)]">
-               Limited to 8 sessions per month · Currently accepting new clients
-             </div>
-           </div>
+            <div className="text-center mt-4 text-[13px] text-[var(--text-light)]">
+              Limited to 8 sessions per month · Currently accepting new clients
+            </div>
+            <div className="text-center mt-4">
+              <a
+                href="/guide"
+                className="inline-block text-sm text-[var(--primary)] hover:text-[var(--primary-light)] underline underline-offset-2 transition-colors"
+              >
+                📸 View our Photo &amp; Information Guide →
+              </a>
+            </div>
+          </div>
          </div>
        </div>
      </section>
