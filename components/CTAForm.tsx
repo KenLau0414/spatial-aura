@@ -14,7 +14,7 @@
      const data = new FormData(form)
 
      try {
-       const res = await fetch('https://formspree.io/f/your-form-id', {
+       const res = await fetch('https://formspree.io/f/xeenvodb', {
          method: 'POST',
          body: data,
          headers: { Accept: 'application/json' },
