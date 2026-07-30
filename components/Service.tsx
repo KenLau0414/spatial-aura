@@ -1,58 +1,114 @@
- export default function Service() {
-   return (
-     <section className="py-20 bg-[var(--bg)]" id="service">
-       <div className="max-w-[900px] mx-auto px-6">
-         <div className="text-center text-xs tracking-[2px] uppercase text-[var(--accent)] mb-4 font-semibold">
-           The Solution
-         </div>
-         <h2 className="text-center text-3xl md:text-4xl mb-5 text-[var(--text)]">
-           Home Energy Assessment
-         </h2>
-         <p className="text-center text-[17px] text-[var(--text-secondary)] max-w-[560px] mx-auto mb-[50px]">
-           A complete remote Feng Shui consultation that identifies what&apos;s blocking your home&apos;s energy — and gives you simple, actionable steps to fix it.
-         </p>
- 
-         <div className="max-w-[640px] mx-auto bg-white rounded-[12px] shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden">
-           <div className="bg-[var(--primary)] text-white text-center px-10 py-10">
-             <h3 className="font-serif text-[28px] mb-2">Full Home Energy Assessment</h3>
-             <div className="font-serif text-[42px] mt-4">$197</div>
-             <div className="text-sm opacity-80 mt-1">Remote assessment· Floor plan analysis· Written report included</div>
-           </div>
-           <div className="px-10 py-10">
-             <ul className="list-none mb-8">
-               <li className="flex items-start gap-3 py-3 border-b border-[var(--border)] text-[15px]">
-                 <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
-                 <span><strong>Your Complete Soul Blueprint</strong> — Decode the timing of your breakthroughs, challenges, and golden opportunities.</span>
-               </li>
-               <li className="flex items-start gap-3 py-3 border-b border-[var(--border)] text-[15px]">
-                 <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
-                 <span><strong>Complete floor plan energy map</strong> — identifying blocked zones, draining areas, and wealth corners</span>
-               </li>
-               <li className="flex items-start gap-3 py-3 border-b border-[var(--border)] text-[15px]">
-                 <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
-                 <span><strong>Personalized action plan</strong> — specific changes for your bedroom, kitchen, entrance, and workspace</span>
-               </li>
-               <li className="flex items-start gap-3 py-3 border-b border-[var(--border)] text-[15px]">
-                 <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
-                 <span><strong>Written report</strong> — delivered within 48 hours, with diagrams and step-by-step instructions</span>
-               </li>
-               <li className="flex items-start gap-3 py-3 border-b border-[var(--border)] text-[15px]">
-                 <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
-                 <span><strong>No renovations required</strong> — most fixes involve repositioning, decluttering, and simple adjustments</span>
-               </li>
-             </ul>
-             <a
-               href="#book"
-               className="block w-full px-10 py-4 rounded-[50px] text-base font-semibold text-white bg-[var(--primary)] hover:bg-[var(--primary-light)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(45,74,62,0.3)] transition-all text-center"
-             >
-               Book Your Assessment
-             </a>
-             <div className="text-center mt-4 text-[13px] text-[var(--text-light)]">
-               Limited to 8 sessions per month · Currently accepting new clients
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
-   )
- }
+﻿export default function Service() {
+  return (
+    <section className="py-20 bg-[var(--bg)]" id="service">
+      <div className="max-w-[900px] mx-auto px-6">
+        <div className="text-center text-xs tracking-[2px] uppercase text-[var(--accent)] mb-4 font-semibold">
+          Choose Your Path
+        </div>
+        <h2 className="text-center text-3xl md:text-4xl mb-5 text-[var(--text)]">
+          Three Ways to Work With Me
+        </h2>
+        <p className="text-center text-[17px] text-[var(--text-secondary)] max-w-[620px] mx-auto mb-[50px]">
+          Whether you want a written reading of your cosmic blueprint, a remote home energy tune-up, or a hands-on in-person visit — there&apos;s an option that fits your situation.
+        </p>
+
+        {/* Card 1: Soul Blueprint Reading */}
+        <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden mb-6">
+          <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
+            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">Written Reading</div>
+            <h3 className="font-serif text-2xl">Soul Blueprint Reading</h3>
+            <div className="font-serif text-[42px] mt-3"></div>
+            <div className="text-sm opacity-80 mt-1">One-time &middot; Delivered in 2&ndash;3 days</div>
+          </div>
+          <div className="p-8">
+            <ul className="list-none mb-6">
+              <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Your Complete Soul Blueprint</strong> &mdash; Decode the timing of your breakthroughs, challenges, and golden opportunities.</span>
+              </li>
+              <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Your birth chart decoded</strong> &mdash; uncover your timing, talents, and turning points</span>
+              </li>
+              <li className="flex items-start gap-3 py-2.5 text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Written insight only</strong> &mdash; no phone call needed, delivered straight to your inbox</span>
+              </li>
+            </ul>
+            <a href="#book" className="block w-full px-8 py-3.5 rounded-[50px] text-sm font-semibold text-white bg-[var(--primary)] hover:bg-[var(--primary-light)] transition-all text-center">
+              Book Your Reading
+            </a>
+          </div>
+        </div>
+
+        {/* Card 2: Home Energy Assessment */}
+        <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden mb-6">
+          <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
+            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">Remote Consultation</div>
+            <h3 className="font-serif text-2xl">Home Energy Assessment</h3>
+            <div className="font-serif text-[42px] mt-3"></div>
+            <div className="text-sm opacity-80 mt-1">Remote assessment &middot; Floor plan analysis &middot; Written report included</div>
+          </div>
+          <div className="p-8">
+            <ul className="list-none mb-6">
+              <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Complete floor plan energy map</strong> &mdash; identifying blocked zones, draining areas, and wealth corners</span>
+              </li>
+              <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Personalized action plan</strong> &mdash; specific changes for your bedroom, kitchen, entrance, and workspace</span>
+              </li>
+              <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Written report</strong> &mdash; delivered within 48 hours, with diagrams and step-by-step instructions</span>
+              </li>
+              <li className="flex items-start gap-3 py-2.5 text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>No renovations required</strong> &mdash; most fixes involve repositioning, decluttering, and simple adjustments</span>
+              </li>
+            </ul>
+            <a href="#book" className="block w-full px-8 py-3.5 rounded-[50px] text-sm font-semibold text-white bg-[var(--primary)] hover:bg-[var(--primary-light)] transition-all text-center">
+              Book Your Assessment
+            </a>
+          </div>
+        </div>
+
+        {/* Card 3: In-Person On-Site */}
+        <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden">
+          <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
+            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">In-Person Visit</div>
+            <h3 className="font-serif text-2xl">On-Site Property Consultation</h3>
+            <div className="font-serif text-[42px] mt-3">Custom</div>
+            <div className="text-sm opacity-80 mt-1">Personalized quote &middot; On-location visit &middot; Full walkthrough</div>
+          </div>
+          <div className="p-8">
+            <ul className="list-none mb-6">
+              <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>On-site visit</strong> &mdash; I come to your property for a full walkthrough</span>
+              </li>
+              <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Property facing &amp; floor plan</strong> &mdash; exact measurements and compass analysis</span>
+              </li>
+              <li className="flex items-start gap-3 py-2.5 text-[15px]">
+                <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
+                <span><strong>Detailed report &amp; recommendations</strong> &mdash; delivered within 48 hours</span>
+              </li>
+            </ul>
+            <a href="/inquiry" className="block w-full px-8 py-3.5 rounded-[50px] text-sm font-semibold text-white bg-[var(--accent)] hover:bg-[var(--accent-light)] transition-all text-center">
+              Request a Quote
+            </a>
+          </div>
+        </div>
+
+        <div className="text-center mt-8">
+          <a href="/guide" className="inline-block text-sm text-[var(--primary)] hover:text-[var(--primary-light)] underline underline-offset-2 transition-colors">
+            📸 View our Photo &amp; Information Guide →
+          </a>
+        </div>
+      </div>
+    </section>
+  )
+}

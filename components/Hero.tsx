@@ -1,4 +1,4 @@
- export default function Hero() {
+﻿ export default function Hero() {
    return (
      <section className="pt-[140px] pb-20 text-center bg-gradient-to-b from-[var(--bg)] to-[#F3F1EC]">
        <div className="max-w-[900px] mx-auto px-6">
@@ -20,7 +20,7 @@
              href="#book"
              className="inline-block px-10 py-4 rounded-[50px] text-base font-semibold text-white bg-[var(--primary)] hover:bg-[var(--primary-light)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(45,74,62,0.3)] transition-all"
            >
-             Submit</a>
+             Book Your Reading</a>
            <a
              href="#service"
              className="inline-block px-10 py-4 rounded-[50px] text-base font-semibold text-[var(--primary)] border-2 border-[var(--primary)] hover:bg-[var(--primary)] hover:text-white transition-all"
