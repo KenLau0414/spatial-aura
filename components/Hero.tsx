@@ -20,8 +20,7 @@
              href="#book"
              className="inline-block px-10 py-4 rounded-[50px] text-base font-semibold text-white bg-[var(--primary)] hover:bg-[var(--primary-light)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(45,74,62,0.3)] transition-all"
            >
-             Book Your Session — $197
-           </a>
+             Submit</a>
            <a
              href="#service"
              className="inline-block px-10 py-4 rounded-[50px] text-base font-semibold text-[var(--primary)] border-2 border-[var(--primary)] hover:bg-[var(--primary)] hover:text-white transition-all"
@@ -29,15 +28,7 @@
              See What&apos;s Included
            </a>
          </div>
- 
-         <div className="mt-10 text-sm text-[var(--text-light)]">
-           <span>90-minute session</span>
-           <span className="mx-2">·</span>
-           <span>Remote via video call</span>
-           <span className="mx-2">·</span>
-           <span>Written report included</span>
-         </div>
-       </div>
+        </div>
      </section>
    )
  }

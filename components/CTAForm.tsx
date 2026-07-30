@@ -51,7 +51,7 @@
            Ready to Shift Your Home&apos;s Energy?
          </h2>
          <p className="text-[17px] opacity-85 max-w-[500px] mx-auto mb-10">
-           Book your Home Energy Assessment below. I personally review every inquiry and will respond within 24 hours to schedule your session.
+           Tell me what you're looking for and I'll personally review your submission within 24 hours. No payment required upfront — just a conversation to make sure we're a good fit.
          </p>
 
          <form className="max-w-[480px] mx-auto" onSubmit={handleSubmit}>
@@ -74,8 +74,7 @@
 
            <button type="submit"
              className="w-full px-10 py-4 rounded-[50px] text-base font-semibold text-white bg-[var(--accent)] hover:bg-[var(--accent-light)] transition-all cursor-pointer">
-             Request My Session 鈥?$197
-           </button>
+             Submit</button>
 
            {error && (
              <p className="text-sm text-red-300 mt-3">{error}</p>

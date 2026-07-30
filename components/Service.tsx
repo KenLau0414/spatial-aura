@@ -16,7 +16,7 @@
            <div className="bg-[var(--primary)] text-white text-center px-10 py-10">
              <h3 className="font-serif text-[28px] mb-2">Full Home Energy Assessment</h3>
              <div className="font-serif text-[42px] mt-4">$197</div>
-             <div className="text-sm opacity-80 mt-1">One-time · 90-minute session · No hidden fees</div>
+             <div className="text-sm opacity-80 mt-1">Remote assessment· Floor plan analysis· Written report included</div>
            </div>
            <div className="px-10 py-10">
              <ul className="list-none mb-8">
@@ -47,18 +47,10 @@
              >
                Book Your Assessment
              </a>
-            <div className="text-center mt-4 text-[13px] text-[var(--text-light)]">
-              Limited to 8 sessions per month · Currently accepting new clients
-            </div>
-            <div className="text-center mt-4">
-              <a
-                href="/guide"
-                className="inline-block text-sm text-[var(--primary)] hover:text-[var(--primary-light)] underline underline-offset-2 transition-colors"
-              >
-                📸 View our Photo &amp; Information Guide →
-              </a>
-            </div>
-          </div>
+             <div className="text-center mt-4 text-[13px] text-[var(--text-light)]">
+               Limited to 8 sessions per month · Currently accepting new clients
+             </div>
+           </div>
          </div>
        </div>
      </section>
