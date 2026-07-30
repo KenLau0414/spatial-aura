@@ -1,11 +1,11 @@
- const testimonials = [
+﻿ const testimonials = [
    {
      text: "After moving my bed and clearing the clutter in my wealth corner, I landed a new client within two weeks. I was skeptical — but the energy in my apartment genuinely feels different now.",
      name: "Sarah M.",
      role: "Freelance Designer, Brooklyn",
    },
    {
-     text: "I booked a session because I couldn't sleep. [Your Name] identified three issues in my bedroom I'd never noticed. First night after the changes, I slept through for the first time in months.",
+     text: "I booked a session because I couldn't sleep. Jason L identified three issues in my bedroom I'd never noticed. First night after the changes, I slept through for the first time in months.",
      name: "James L.",
      role: "Software Engineer, Austin",
    },
