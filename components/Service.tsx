@@ -21,6 +21,9 @@
             <div className="text-sm opacity-80 mt-1">One-time &middot; Delivered in 2&ndash;3 days</div>
           </div>
           <div className="p-8">
+            <p className="text-[15px] text-[var(--text-secondary)] mb-6 leading-relaxed">
+  A complete decoding of your birth chart &mdash; your timing, your talents, and the turning points coming up. Pure written insight, no phone call needed.
+</p>
             <ul className="list-none mb-6">
               <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
                 <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
@@ -83,6 +86,9 @@
             <div className="text-sm opacity-80 mt-1">Personalized quote &middot; On-location visit &middot; Full walkthrough</div>
           </div>
           <div className="p-8">
+            <p className="text-[15px] text-[var(--text-secondary)] mb-6 leading-relaxed">
+  For homes that need a physical walkthrough. Some spaces only reveal themselves in person &mdash; multi-floor layouts, tricky exteriors, or waterfront properties.
+</p>
             <ul className="list-none mb-6">
               <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
                 <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
