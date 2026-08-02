@@ -11,7 +11,7 @@
         <p className="text-center text-[17px] text-[var(--text-secondary)] max-w-[620px] mx-auto mb-[50px]">
           Whether you want a written reading of your cosmic blueprint, a remote home energy tune-up, or a hands-on in-person visit — there&apos;s an option that fits your situation.
         </p>
-
+        < div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {/* Card 1: Soul Blueprint Reading */}
         <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden mb-6">
           <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
@@ -108,7 +108,7 @@
             </a>
           </div>
         </div>
-
+</div>
         <div className="text-center mt-8">
           <a href="/guide" className="inline-block text-sm text-[var(--primary)] hover:text-[var(--primary-light)] underline underline-offset-2 transition-colors">
             📸 View our Photo &amp; Information Guide →
