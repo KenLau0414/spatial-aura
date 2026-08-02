@@ -47,7 +47,7 @@
         {/* Card 2: Home Energy Assessment */}
         <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden mb-6">
           <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
-            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">Remote Consultation</div>
+            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">MOST COMPREHENSIVE</div>
             <h3 className="font-serif text-2xl">Home Energy Assessment</h3>
             <div className="font-serif text-[42px] mt-3"></div>
             <div className="text-sm opacity-80 mt-1">Remote assessment &middot; Floor plan analysis &middot; Written report included</div>
@@ -80,10 +80,10 @@
         {/* Card 3: In-Person On-Site */}
         <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden">
           <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
-            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">In-Person Visit</div>
-            <h3 className="font-serif text-2xl">On-Site Property Consultation</h3>
-            <div className="font-serif text-[42px] mt-3">Custom</div>
-            <div className="text-sm opacity-80 mt-1">Personalized quote &middot; On-location visit &middot; Full walkthrough</div>
+            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">PREMIUM &middot; BY APPOINTMENT</div>
+            <h3 className="font-serif text-2xl">In-Person On-Site Home Energy Consulting</h3>
+            <div className="font-serif text-[42px] mt-3">Custom Quote</div>
+            <div className="text-sm opacity-80 mt-1">Pricing depends on property size, location &amp; scope</div>
           </div>
           <div className="p-8">
             <p className="text-[15px] text-[var(--text-secondary)] mb-6 leading-relaxed">
