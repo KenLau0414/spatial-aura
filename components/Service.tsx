@@ -13,13 +13,12 @@
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
         {/* Card 1: Soul Blueprint Reading */}
-        <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden mb-6">
-          <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
-            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">Written Reading</div>
-            <h3 className="font-serif text-2xl">Soul Blueprint Reading</h3>
-            <div className="font-serif text-[42px] mt-3"></div>
-            <div className="text-sm opacity-80 mt-1">One-time &middot; Delivered in 2&ndash;3 days</div>
-          </div>
+        <div className="bg-[var(--primary)] text-white text-center px-6 py-5">
+  <div className="text-[11px] uppercase tracking-[1.5px] opacity-80 mb-1">WRITTEN READING</div>
+  <h3 className="font-serif text-xl font-medium leading-tight">Soul Blueprint<br/>Reading</h3>
+  <div className="font-serif text-3xl mt-2 font-normal">$49</div>
+  <div className="text-xs opacity-75 mt-1 leading-tight">One-time &middot; Delivered in 2&ndash;3 days</div>
+</div>
           <div className="p-8">
             <p className="text-[15px] text-[var(--text-secondary)] mb-6 leading-relaxed">
   A complete decoding of your birth chart &mdash; your timing, your talents, and the turning points coming up. Pure written insight, no phone call needed.
@@ -46,12 +45,12 @@
 
         {/* Card 2: Home Energy Assessment */}
         <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden mb-6">
-          <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
-            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">MOST COMPREHENSIVE</div>
-            <h3 className="font-serif text-2xl">Home Energy Assessment</h3>
-            <div className="font-serif text-[42px] mt-3"></div>
-            <div className="text-sm opacity-80 mt-1">Remote assessment &middot; Floor plan analysis &middot; Written report included</div>
-          </div>
+          <div className="bg-[var(--primary)] text-white text-center px-6 py-5">
+  <div className="text-[11px] uppercase tracking-[1.5px] opacity-80 mb-1">MOST COMPREHENSIVE</div>
+  <h3 className="font-serif text-xl font-medium leading-tight">Full Home Energy<br/>Assessment</h3>
+  <div className="font-serif text-3xl mt-2 font-normal">$197</div>
+  <div className="text-xs opacity-75 mt-1 leading-tight">Remote assessment &middot; Floor plan analysis &middot; Written report included</div>
+</div>
           <div className="p-8">
             <ul className="list-none mb-6">
               <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
@@ -81,8 +80,8 @@
         <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden">
           <div className="bg-[var(--primary)] text-white text-center px-6 py-5">
   <div className="text-[11px] uppercase tracking-[1.5px] opacity-80 mb-1">PREMIUM &middot; BY APPOINTMENT</div>
-  <h3 className="font-serif text-xl font-medium leading-tight">In-Person On-Site<br/>Home Energy Consulting</h3>
-  <div className="font-serif text-3xl mt-2 font-normal">Custom Quote</div>
+  <h3 className="font-serif text-[17px] font-medium leading-snug">In-Person On-Site<br/>Home Energy Consulting</h3>
+  <div className="font-serif text-2xl mt-2 font-normal whitespace-nowrap">Custom Quote</div>
   <div className="text-xs opacity-75 mt-1 leading-tight">Pricing depends on property size, location &amp; scope</div>
 </div>
           </div>
