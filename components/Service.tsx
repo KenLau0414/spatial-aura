@@ -29,15 +29,15 @@ export default function Service() {
               </p>
               <ul className="list-none mb-6">
                 <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Your Complete Soul Blueprint</strong> &mdash; Decode the timing of your breakthroughs, challenges, and golden opportunities.</span>
                 </li>
                 <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Your birth chart decoded</strong> &mdash; uncover your timing, talents, and turning points</span>
                 </li>
                 <li className="flex items-start gap-3 py-2.5 text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Written insight only</strong> &mdash; no phone call needed, delivered straight to your inbox</span>
                 </li>
               </ul>
@@ -58,19 +58,19 @@ export default function Service() {
             <div className="p-8">
               <ul className="list-none mb-6">
                 <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Complete floor plan energy map</strong> &mdash; identifying blocked zones, draining areas, and wealth corners</span>
                 </li>
                 <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Personalized action plan</strong> &mdash; specific changes for your bedroom, kitchen, entrance, and workspace</span>
                 </li>
                 <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Written report</strong> &mdash; delivered within 48 hours, with diagrams and step-by-step instructions</span>
                 </li>
                 <li className="flex items-start gap-3 py-2.5 text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>No renovations required</strong> &mdash; most fixes involve repositioning, decluttering, and simple adjustments</span>
                 </li>
               </ul>
@@ -94,15 +94,15 @@ export default function Service() {
               </p>
               <ul className="list-none mb-6">
                 <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>On-site visit</strong> &mdash; I come to your property for a full walkthrough</span>
                 </li>
                 <li className="flex items-start gap-3 py-2.5 border-b border-[var(--border)] text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Property facing &amp; floor plan</strong> &mdash; exact measurements and compass analysis</span>
                 </li>
                 <li className="flex items-start gap-3 py-2.5 text-[15px]">
-                  <span className="text-[var(--accent)] font-bold shrink-0">&check;</span>
+                  <span className="text-[var(--accent)] font-bold shrink-0">✓</span>
                   <span><strong>Detailed report &amp; recommendations</strong> &mdash; delivered within 48 hours</span>
                 </li>
               </ul>
