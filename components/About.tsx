@@ -3,9 +3,10 @@
      <section className="py-20 bg-white" id="about">
        <div className="max-w-[900px] mx-auto px-6">
          <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-[60px] items-center">
-           <div className="w-full aspect-square rounded-[12px] bg-gradient-to-br from-[#E8E5E0] to-[#D4CFC6] flex items-center justify-center text-[80px] text-[var(--text-light)]">
-             [Your Photo]
-           </div>
+           <img src="/Gemini_Sample03.png" 
+            alt="Jason L - Feng Shui Consultant" 
+            className="w-full aspect-square rounded-[12px] object-cover shadow-sm"
+           />
            <div>
              <div className="text-xs tracking-[2px] uppercase text-[var(--accent)] mb-4 font-semibold">
                Your Consultant
