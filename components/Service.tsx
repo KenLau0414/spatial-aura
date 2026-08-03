@@ -11,7 +11,7 @@
         <p className="text-center text-[17px] text-[var(--text-secondary)] max-w-[620px] mx-auto mb-[50px]">
           Whether you want a written reading of your cosmic blueprint, a remote home energy tune-up, or a hands-on in-person visit — there&apos;s an option that fits your situation.
         </p>
-        < div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
         {/* Card 1: Soul Blueprint Reading */}
         <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden mb-6">
           <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
@@ -79,11 +79,12 @@
 
         {/* Card 3: In-Person On-Site */}
         <div className="bg-white rounded-xl shadow-[0_2px_20px_rgba(0,0,0,0.06)] overflow-hidden">
-          <div className="bg-[var(--primary)] text-white text-center px-8 py-6">
-            <div className="text-xs uppercase tracking-[2px] opacity-80 mb-1">PREMIUM &middot; BY APPOINTMENT</div>
-            <h3 className="font-serif text-2xl">In-Person On-Site Home Energy Consulting</h3>
-            <div className="font-serif text-[42px] mt-3">Custom Quote</div>
-            <div className="text-sm opacity-80 mt-1">Pricing depends on property size, location &amp; scope</div>
+          <div className="bg-[var(--primary)] text-white text-center px-6 py-5">
+  <div className="text-[11px] uppercase tracking-[1.5px] opacity-80 mb-1">PREMIUM &middot; BY APPOINTMENT</div>
+  <h3 className="font-serif text-xl font-medium leading-tight">In-Person On-Site<br/>Home Energy Consulting</h3>
+  <div className="font-serif text-3xl mt-2 font-normal">Custom Quote</div>
+  <div className="text-xs opacity-75 mt-1 leading-tight">Pricing depends on property size, location &amp; scope</div>
+</div>
           </div>
           <div className="p-8">
             <p className="text-[15px] text-[var(--text-secondary)] mb-6 leading-relaxed">
