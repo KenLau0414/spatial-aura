@@ -109,6 +109,7 @@
             </a>
           </div>
         </div>
+        </div>
 </div>
         <div className="text-center mt-8">
           <a href="/guide" className="inline-block text-sm text-[var(--primary)] hover:text-[var(--primary-light)] underline underline-offset-2 transition-colors">
